@@ -36,6 +36,14 @@ Output: [2,4,5]
 1. The given tree will have between 1 and 1000 nodes.
 2. Each node of the tree will have a distinct value between 1 and 1000.
 
+Examples :
+
+![LCA of deepest leaves](tree-1.JPG?raw=true "LCA of deepest leaves")
+![LCA of deepest leaves](tree-2.JPG?raw=true "LCA of deepest leaves")
+![LCA of deepest leaves](tree-3.JPG?raw=true "LCA of deepest leaves")
+![LCA of deepest leaves](tree-4.JPG?raw=true "LCA of deepest leaves")
+![LCA of deepest leaves](tree-5.JPG?raw=true "LCA of deepest leaves")
+
 ## Approach : Two pass through binary tree
 1. **First Pass :** In first pass we move from root to deepest leaves by Level order traversal using BFS. After first pass, `deepestLevelNodes` queue will have leaf nodes at the deepest level
 
