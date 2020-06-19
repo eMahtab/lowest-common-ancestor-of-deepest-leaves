@@ -36,7 +36,7 @@ Output: [2,4,5]
 1. The given tree will have between 1 and 1000 nodes.
 2. Each node of the tree will have a distinct value between 1 and 1000.
 
-### Examples :
+### Examples : Lowest Common Ancestor node of deepest leaves is highlighted in orange color.
 
 #### e.g. 1
 ![LCA of deepest leaves](tree-1.JPG?raw=true "LCA of deepest leaves")
