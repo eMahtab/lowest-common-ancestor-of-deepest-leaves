@@ -37,8 +37,9 @@ Output: [2,4,5]
 2. Each node of the tree will have a distinct value between 1 and 1000.
 
 ## Approach : Two pass through binary tree
-1. First Pass : In first pass we move from root to deepest leaves by Level order traversal using BFS. After first pass, deepestLevelNodes queue will have leaf nodes at the deepest level
-2. Second Pass : In second pass we move upwards in the tree, from nodes at the deepest level to root node. To move upwards, we add the parent of the node in deepestLevelNodes queue. We keep doing this untill there is only one TreeNode in deepestLevelNodes queue.
+1. **First Pass :** In first pass we move from root to deepest leaves by Level order traversal using BFS. After first pass, `deepestLevelNodes` queue will have leaf nodes at the deepest level
+
+2. **Second Pass :** In second pass we move upwards in the tree, from nodes at the deepest level to root node. To move upwards, we add the parent of the node in `deepestLevelNodes` queue. We keep doing this untill there is only one TreeNode in `deepestLevelNodes` queue.
 
 # Implementation : Iterative
 ```java
