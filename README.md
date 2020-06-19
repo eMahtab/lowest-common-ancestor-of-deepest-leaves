@@ -81,9 +81,9 @@ class Solution {
             }
         }
         
-        // Second Pass : We move upwards in the tree, from nodes at the deepest level to root node
-        // We keep undating the deepestLevelNodes queue, when it have only one element
-        // It means we found the lowest common ancestor of deepest leaves
+        // Second Pass : We move upwards in the tree, from nodes at the deepest level to root node.
+        // To move upwards, we add the parent of the node in deepestLevelNodes queue.
+        // We keep doing this untill there is only one TreeNode in deepestLevelNodes queue.
         while(deepestLevelNodes.size() > 1) {
             Set<TreeNode> set = new HashSet<>();
             int size = deepestLevelNodes.size();
